@@ -76,15 +76,15 @@ const AboutusSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I’m Subodh Shejwal, a passionate MERN stack developer eager to
+            I'm Subodh Shejwal, a passionate MERN stack developer eager to
             expand my knowledge and skills. With experience in building
             scalable, user-centric applications using MongoDB, Express.js,
             React, and Node.js, I enjoy tackling challenges across the full
             development lifecycle. My projects span from e-commerce sites to
-            Chrome extensions, and I’m committed to writing clean, efficient
+            Chrome extensions, and I'm committed to writing clean, efficient
             code while continuously learning new technologies. I'm driven by
             curiosity and excited about opportunities that push my boundaries
-            and allow me to contribute to impactful projects. Let’s connect if
+            and allow me to contribute to impactful projects. Let's connect if
             you're looking for a dedicated developer ready to grow and innovate!
           </p>
           <div className="flex flex-row justify-start mt-8">
