@@ -29,9 +29,9 @@ function HeroSection() {
               sequence={[
                 "Subodh",
                 1500,
-                "MERN Stack Developer",
+                "A MERN Stack Developer",
                 1500,
-                "Freelancer",
+                "A Freelancer",
                 1500,
               ]}
               wrapper="span"
