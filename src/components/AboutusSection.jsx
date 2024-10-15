@@ -64,9 +64,12 @@ const AboutusSection = () => {
 
   return (
     <section className="text-white">
-      <motion.div  initial={{ opacity: 0 , scale: 0.3}}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.7 }}  className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 ">
+      <motion.div
+        initial={{ opacity: 0, scale: 0.3 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7 }}
+        className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 "
+      >
         <Image
           src="/aboutUs.avif"
           width={500}
@@ -76,17 +79,19 @@ const AboutusSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm Subodh Shejwal, a passionate MERN stack developer eager to
+            I&apos;m Subodh Shejwal, a passionate MERN stack developer eager to
             expand my knowledge and skills. With experience in building
             scalable, user-centric applications using MongoDB, Express.js,
             React, and Node.js, I enjoy tackling challenges across the full
             development lifecycle. My projects span from e-commerce sites to
-            Chrome extensions, and I'm committed to writing clean, efficient
-            code while continuously learning new technologies. I'm driven by
-            curiosity and excited about opportunities that push my boundaries
-            and allow me to contribute to impactful projects. Let's connect if
-            you're looking for a dedicated developer ready to grow and innovate!
+            Chrome extensions, and I&apos;m committed to writing clean,
+            efficient code while continuously learning new technologies.
+            I&apos;m driven by curiosity and excited about opportunities that
+            push my boundaries and allow me to contribute to impactful projects.
+            Let&apos;s connect if you&apos;re looking for a dedicated developer
+            ready to grow and innovate!
           </p>
+
           <div className="flex flex-row justify-start mt-8">
             <ActiveTab
               selectTab={() => handletabChange("skills")}
